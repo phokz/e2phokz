@@ -10,5 +10,5 @@ Gem::Specification.new do |gem|
   gem.files         = `git ls-files`.split("\n")
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.version       = File.open('VERSION').read.strip
-  gem.add_dependency "stomp", "~> 1.1.6"
+  gem.add_dependency "stomp", "~> 1.2.8"
 end

@@ -1,5 +1,9 @@
-#!/usr/bin/ruby -w
+#!/usr/bin/env ruby
 
-require 'e2phokz.rb'
+require 'e2phokz'
 
-E2Phokz.main
+require 'zlib'
+require 'stomp'
+require 'yaml'
+
+E2Phokz.main(ARGV)
