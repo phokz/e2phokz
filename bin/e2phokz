@@ -1,0 +1,5 @@
+#!/usr/bin/ruby -w
+
+require 'e2phokz.rb'
+
+E2Phokz.main
